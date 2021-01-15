@@ -40,7 +40,7 @@ namespace API.Controllers
                 Username = user.UserName,
                 Token = _tokenService.CreatToken(user)
             };
-
+    
         }
 
         [HttpPost("login")]
